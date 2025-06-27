@@ -1,22 +1,21 @@
-##### **First name**: Ilya
-##### **Last name**: Sulikovskiy
+#### **First name**: Ilya <br>**Last name**: Sulikovskiy
 
 ---
 
-##### **Contacts**:
+#### **Contacts**:
 - e-mail: i.sul95@gmail.com
 - telegram: ilya_sul
 
 ---
 
-##### **About me**:
+#### **About me**:
 - my goal - learn to program
 - work experience - no
 - Strong point - I can solve assigned tasks
 
 ---
 
-##### **Code example**
+#### **Code example**
 ```
 My first code...
 ```
