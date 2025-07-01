@@ -5,6 +5,7 @@
 #### **Contacts**:
 - e-mail: i.sul95@gmail.com
 - telegram: ilya_sul
+- github: ilyasul
 
 ---
 
@@ -22,10 +23,10 @@ My first code...
 
 ---
 
-##### **Education**:
+#### **Education**:
 - Belarusian National Technical University, Energy Engineer
 
 ---
 
-##### **English**:
+#### **English**:
 - A1 level
