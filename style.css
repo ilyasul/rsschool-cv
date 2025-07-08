@@ -1,0 +1,230 @@
+:root{
+    --color-header: #0F132A;
+    --color-inverse: #FFFFFF;
+    --color-square1: #4DD000;
+    --color-square2: #006C09;
+    --color-square3: #002D0D;
+    --color-chapter: #294978;
+    --color-background: #FFF6EA;
+    --font-title: "Jersey 20";
+    --font-body: "Inter";
+    --font-size-h1: 81px;
+    --font-size-h2: 30px;
+    --font-size-h3: 46px;
+    --font-size-body: 16px;
+    --font-weight-jersey: 400;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-width: 960px;
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-background);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 1161px;
+}
+
+.main {
+    margin:80px auto;
+    font-family: var(--font-body), sans-serif;
+    font-size: var(--font-size-body);
+}
+
+.header {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    height:80px;
+    background-color: var(--color-header);
+}
+
+.header-line{
+    display:flex;
+    justify-content: flex-end;
+    margin:0 auto;
+    list-style-type: none;
+}
+
+.header-text {
+    margin-left: 50px;
+    font-family: var(--font-title), sans-serif;
+    font-size: 24px;
+    font-weight: var(--font-weight-jersey);
+    text-decoration: none;
+    color:var(--color-inverse);
+}
+
+.main-line {
+    display: flex;
+    margin:0 0 40px 0;
+}
+.main-name {
+    margin: 0 0 10px 0;
+    font-family: var(--font-title), sans-serif;
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-jersey);
+}
+
+.main-about-h3 {
+    margin: 20px 40px;
+    font-family: var(--font-title), sans-serif;
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-jersey);
+}
+
+.main-avatar {
+    width: 276px; 
+    height: 308px;
+}
+
+.main-about {
+    max-width: 865px;
+    margin: 22px 0 0 20px;
+    background-color: var(--color-inverse);
+}
+
+.main-about-text {
+    margin: 20px 40px;
+}
+
+.education-skills {
+    display:flex;
+    margin: 40px 0;
+}
+
+.education {
+    width: 570px;
+    margin: 0 10px 0 0;
+}
+
+.education-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    font-size: var(--font-size-h2);
+    font-family: var(--font-title);
+    font-weight: var(--font-weight-jersey);
+    color: var(--color-inverse);
+    background-color: var(--color-chapter);
+}
+
+.skills {
+    width: 570px;
+    margin: 0 0 0 10px;
+}
+
+.skills-title {
+    background-color: var(--color-chapter);
+    font-size: var(--font-size-h2);
+    font-family: var(--font-title);
+    color: var(--color-inverse);
+    font-weight: var(--font-weight-jersey);
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code {
+    display:flex;
+    flex-direction: column;
+    margin: 40px 0;
+    max-width:1160px;
+    
+}
+
+.code-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+    font-family: var(--font-title);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-jersey);
+    color: var(--color-inverse);
+    background-color: var(--color-chapter);
+}
+
+.code-block {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 40px
+}
+
+.languages-contacts {
+    display:flex;
+    margin: 40px 0;
+}
+
+.languages {
+    width: 570px;
+    margin: 0 10px 0 0;
+}
+
+.languages-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    font-family: var(--font-title);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-jersey);
+    color: var(--color-inverse);
+    background-color: var(--color-chapter);
+}
+
+.contacts {
+    width: 570px;
+    margin: 0 0 0 10px;
+}
+
+.contacts-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+    font-family: var(--font-title);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-jersey);
+    color: var(--color-inverse);
+    background-color: var(--color-chapter);
+}
+
+.footer {
+    display: flex;
+    height: 80px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    background-color: var(--color-header);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1161px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-text {
+    color: var(--color-inverse);
+}
+
+.footer-text-link {
+    text-decoration: none;
+    color: var(--color-inverse);
+}
+
+.footer-rs-logo {
+    width: 60px;
+}
