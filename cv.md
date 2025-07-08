@@ -1,5 +1,5 @@
 # **Ilya Sulikovskiy**
-*Beginner developer*
+Beginner developer
 ---
 
 #### **Contacts:**
